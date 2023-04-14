@@ -62,7 +62,7 @@ transform: scale(1.1,1.1);
 }
 .changetext::before{
   content: "Mern Stack";
-  animation: animate infinite 3s;
+  animation: animate infinite 5s;
 }
 @keyframes animate {
   
