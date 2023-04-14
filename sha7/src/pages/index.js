@@ -11,6 +11,7 @@ import github from '../../public/github.png'
 import linkd from '../../public/linkedin.png'
 import twit from '../../public/twitter.png'
 import email from '../../public/email.png'
+import down from '../../public/down.png'
 export default function Home() {
   return (
     <>
@@ -45,6 +46,8 @@ export default function Home() {
   <p>Iam a <span className={styles.changetext}></span><br/>
   <span>Developer</span>
   </p>
+  <a href='https://drive.google.com/file/d/1o44f1CebTfJ3xs4QEKZ-xc-smpZifWJX/view?usp=sharing'><button className={styles.button}>Resume   <Image src={down} height={50}/></button></a>
+  
 </div>
 <div className={styles.second}>
   <Image src={code} width={450}/>

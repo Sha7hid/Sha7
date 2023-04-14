@@ -35,12 +35,12 @@ justify-content: space-between;
   flex-direction: column;
 }
 .first>p{
-  font-family:'Carter One', cursive; ;
+  font-family:'Carter One', cursive; 
   font-size: 4rem;
   font-weight: 500;
   color: white;
   text-shadow: 3px 3px #ff3131;
- padding-bottom: 12rem;
+ padding-bottom: 5rem;
 
 }
 .second{
@@ -60,9 +60,20 @@ align-items: center;
 cursor: pointer;
 transform: scale(1.1,1.1);
 }
+.button{
+  background-image: linear-gradient(90deg,#ff3131,#ff914d);
+  color: white;
+  font-family:'Carter One', cursive; 
+  border: none;
+  font-size: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+}
 .changetext::before{
   content: "Mern Stack";
-  animation: animate infinite 5s;
+  animation: animate infinite 3s;
 }
 @keyframes animate {
   
