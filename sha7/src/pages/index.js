@@ -7,7 +7,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavItem } from 'react-bootstrap';
 import Image from 'next/image';
 import code from '../../public/giphy.gif'
-
+import github from '../../public/github.png'
+import linkd from '../../public/linkedin.png'
+import twit from '../../public/twitter.png'
+import email from '../../public/email.png'
 export default function Home() {
   return (
     <>
@@ -39,7 +42,7 @@ export default function Home() {
       <main className={styles.main}>
      
 <div className={styles.first}>
-  <p>Iam a <span>Mern Stack</span><br/>
+  <p>Iam a <span className={styles.changetext}></span><br/>
   <span>Developer</span>
   </p>
 </div>
@@ -47,7 +50,10 @@ export default function Home() {
   <Image src={code} width={450}/>
 </div>
 <div className={styles.third}>
-  Icons
+  <Image src={github} width={140} />
+  <Image src={linkd} width={60}/>
+  <Image src={twit} width={80}/>
+  <Image src={email} width={80} />
 </div>
 
       </main>
