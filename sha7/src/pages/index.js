@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import styles from '@/styles/Home.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { NavItem } from 'react-bootstrap';
+import { Col, NavItem, Row } from 'react-bootstrap';
 import Image from 'next/image';
 import code from '../../public/giphy.gif'
 import github from '../../public/github.png'
@@ -41,24 +41,30 @@ export default function Home() {
       </Container>
     </Navbar>
       <main className={styles.main}>
+     <Row>
+      <Col className={styles.first} lg={6} md={7} sm={12}>
      
-<div className={styles.first}>
   <p>Iam a <span className={styles.changetext}></span><br/>
   <span>Developer</span>
   </p>
-  <a href='https://drive.google.com/file/d/1o44f1CebTfJ3xs4QEKZ-xc-smpZifWJX/view?usp=sharing'><button className={styles.button}>Resume   <Image src={down} height={50}/></button></a>
+  <a href='https://drive.google.com/file/d/1o44f1CebTfJ3xs4QEKZ-xc-smpZifWJX/view?usp=sharing'><button className={styles.button}>Resume   <Image src={down} className={styles.down}/></button></a>
   
-</div>
-<div className={styles.second}>
-  <Image src={code} width={450}/>
-</div>
-<div className={styles.third}>
-  <Image src={github} width={140} />
-  <Image src={linkd} width={60}/>
-  <Image src={twit} width={80}/>
-  <Image src={email} width={80} />
-</div>
+      </Col>
+<Col className={styles.second} lg={4} md={5} sm={12}>
 
+  <Image src={code} className={styles.code}/>
+
+</Col>
+<Col className={styles.third} lg={2} md={12} sm={12}>
+
+  <a href='https://github.com/Sha7hid'> <Image src={github} className={styles.git} /></a>
+ <a href='https://www.linkedin.com/in/shahid-k-p-a9b488227/'><Image src={linkd} className={styles.linkd}/></a> 
+ <a href='https://twitter.com/sha7hid'><Image src={twit} className={styles.twit}/></a> 
+<a href='mailto:shakp2003@gmail.com'><Image src={email} className={styles.email} /></a>  
+
+</Col>
+
+</Row>
       </main>
     </>
   )
