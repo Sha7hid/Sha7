@@ -14,6 +14,7 @@ import email from '../../public/email.png'
 import down from '../../public/down.png'
 import About from '@/components/about';
 import Link from 'next/link';
+import Works from '@/components/works'
 export default function Home() {
   return (
     <>
@@ -70,6 +71,7 @@ export default function Home() {
 </Row>
       </main>
       <About/>
+      <Works/>
     </>
   )
 }
