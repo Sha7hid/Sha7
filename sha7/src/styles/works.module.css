@@ -6,3 +6,36 @@
     min-height: 100vh;
     background-image: linear-gradient(90deg,#5de0e6,#004aad);
 }
+.project{
+    height: 20rem;
+    width: 20rem;
+    margin-right: 3rem;
+}
+.project2{
+    height: 20rem;
+    width: 20rem;
+    margin-left: 10rem;
+    margin-right: 3rem;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-size: 2.2rem;
+    color: white;
+    font-family: 'Carter One', cursive;
+    text-shadow: 3px 3px #ff3131;
+}
+.details{
+    font-size: 1.2rem;
+    color: white;
+    font-family: 'Carter One', cursive;
+}
+.more{
+    font-size: 1rem;
+    color: white;
+    font-family: 'Carter One', cursive;
+}

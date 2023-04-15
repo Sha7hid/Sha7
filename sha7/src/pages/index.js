@@ -37,7 +37,7 @@ export default function Home() {
           <Nav className='mx-auto'>
             <NavItem className={styles.nav}><Link className={styles.nav} href={'/'}>Home</Link></NavItem>
             <NavItem className={styles.nav}><Link className={styles.nav} href={'#about'}>About</Link></NavItem>
-            <NavItem className={styles.nav}><Link className={styles.nav} href={'#about'}>Works</Link></NavItem>
+            <NavItem className={styles.nav}><Link className={styles.nav} href={'#works'}>Works</Link></NavItem>
             <NavItem className={styles.nav}><Link className={styles.nav} href={'#about'}>Contact</Link></NavItem>
           
           </Nav>
