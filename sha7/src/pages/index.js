@@ -15,6 +15,7 @@ import down from '../../public/down.png'
 import About from '@/components/about';
 import Link from 'next/link';
 import Works from '@/components/works'
+import Contact from '@/components/contact';
 export default function Home() {
   return (
     <>
@@ -38,7 +39,7 @@ export default function Home() {
             <NavItem className={styles.nav}><Link className={styles.nav} href={'/'}>Home</Link></NavItem>
             <NavItem className={styles.nav}><Link className={styles.nav} href={'#about'}>About</Link></NavItem>
             <NavItem className={styles.nav}><Link className={styles.nav} href={'#works'}>Works</Link></NavItem>
-            <NavItem className={styles.nav}><Link className={styles.nav} href={'#about'}>Contact</Link></NavItem>
+            <NavItem className={styles.nav}><Link className={styles.nav} href={'#contact'}>Contact</Link></NavItem>
           
           </Nav>
         </Navbar.Collapse>
@@ -72,6 +73,7 @@ export default function Home() {
       </main>
       <About/>
       <Works/>
+      <Contact/>
     </>
   )
 }

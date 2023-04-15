@@ -17,6 +17,18 @@
     margin-left: 10rem;
     margin-right: 3rem;
 }
+.project4{
+    height: 20rem;
+    width: 20rem;
+    margin-left: 11rem;
+    margin-right: 3rem;
+}
+.project5{
+    height: 20rem;
+    width: 20rem;
+    margin-left: 17rem;
+    margin-right: 3rem;
+}
 .row{
     display: flex;
     flex-direction: row;
@@ -33,9 +45,55 @@
     font-size: 1.2rem;
     color: white;
     font-family: 'Carter One', cursive;
+    padding-right: 3rem;
 }
 .more{
     font-size: 1rem;
     color: white;
     font-family: 'Carter One', cursive;
+    cursor: pointer;
+    text-decoration: none;
+}
+.more:hover{
+    color: white;
+}
+@media (min-height: 650px ){
+    .project{
+        height: 150px;
+        width: 150px;
+        margin-left: 4rem;
+    }
+    .project2{
+        height: 160px;
+        width: 160px;
+        margin-left: 4rem;
+    }
+    .project4{
+        height: 150px;
+        width: 150px;
+        margin-left: 4rem;
+    }
+    .project5{
+        height: 150px;
+        width: 150px;
+        margin-left: 4rem;
+    }
+    .heading{
+        font-size: 20px;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .details{
+        font-size: 15px;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .more{
+        font-size: 10px;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .row{
+        flex-direction: column;
+    }
 }
