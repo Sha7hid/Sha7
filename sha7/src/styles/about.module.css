@@ -115,6 +115,12 @@ animation: animate infinite 3s;
     }
   
   @media (min-height: 650px ) {
+    .main{
+        min-height: fit-content;
+    }
+    .row{
+        width: auto;
+    }
     .first{
         padding-top: 2rem;
         min-height: fit-content;
@@ -126,29 +132,41 @@ animation: animate infinite 3s;
         font-size: 25px;
     }
     .first>img{
-        height: 130px;
-        width: 130px;
+        height: 110px;
+        width: 110px;
     }
     .first>span{
         font-size: 10px;
     }
     .second{
         min-height: fit-content;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        flex-direction: row;
     }
     .san{
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
+        animation: none;
     }
     .mongo{
-        height: 90px;
-        width: 150px;
+        height: 60px;
+        width: 80px;
+        animation: none;
     }
     .re{
-        height: 70px;
-        width: 130px;
-    }
-    .js{
         height: 40px;
         width: 60px;
+        animation: none;
+    }
+    .js{
+        height: 20px;
+        width: 40px;
+        animation: none;
+    }
+  }
+  @media (min-height:880px){
+    .main{
+        min-height: fit-content;
     }
   }
