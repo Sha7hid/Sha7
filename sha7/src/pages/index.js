@@ -12,6 +12,8 @@ import linkd from '../../public/linkedin.png'
 import twit from '../../public/twitter.png'
 import email from '../../public/email.png'
 import down from '../../public/down.png'
+import About from '@/components/about';
+import Link from 'next/link';
 export default function Home() {
   return (
     <>
@@ -23,6 +25,7 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet"/> 
       </Head>
       
       <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
@@ -31,10 +34,10 @@ export default function Home() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className='mx-auto'>
-            <NavItem className={styles.nav}>Home</NavItem>
-            <NavItem className={styles.nav}>About</NavItem>
-            <NavItem className={styles.nav}>Works</NavItem>
-            <NavItem className={styles.nav}>Contact</NavItem>
+            <NavItem className={styles.nav}><Link className={styles.nav} href={'/'}>Home</Link></NavItem>
+            <NavItem className={styles.nav}><Link className={styles.nav} href={'#about'}>About</Link></NavItem>
+            <NavItem className={styles.nav}><Link className={styles.nav} href={'#about'}>Works</Link></NavItem>
+            <NavItem className={styles.nav}><Link className={styles.nav} href={'#about'}>Contact</Link></NavItem>
           
           </Nav>
         </Navbar.Collapse>
@@ -66,6 +69,7 @@ export default function Home() {
 
 </Row>
       </main>
+      <About/>
     </>
   )
 }

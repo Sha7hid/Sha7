@@ -15,12 +15,14 @@ font-size: 1.2rem;
 font-family: 'Carter One', cursive;
 margin-left: 25px;
 cursor: pointer;
+text-decoration: none;
 }
 .navbrand{
   font-family: 'Carter One', cursive;
   font-size: 1.7rem;
 }
 .nav:hover{
+  color: white;
   transform: scale(1.2,1.2);
 }
 .container{
@@ -115,6 +117,9 @@ height: 5rem;
 
 }
 @media (min-height: 650px ) {
+  .main{
+    min-height: fit-content;
+  }
   .first>p{
     font-size: 25px;
     padding-top: 1rem;
@@ -136,25 +141,26 @@ height: 5rem;
     width: 25px;
   }
   .git{
-    width: 5rem;
-    height: 3rem;
+    width: 4.5rem;
+    height: 2.5rem;
     }
     .linkd{
+      width: 2.2rem;
+      height: 2.2rem;
+      margin-right: 12px;
+    }
+    .twit{
       width: 2.5rem;
       height: 2.5rem;
       margin-right: 12px;
     }
-    .twit{
-      width: 3rem;
-      height: 3rem;
-      margin-right: 12px;
-    }
     .email{
-      width: 3rem;
-      height: 3rem;
+      width: 2.5rem;
+      height: 2.5rem;
     }
     .third{
       flex-direction: row;
       gap: 0rem;
+      padding-bottom: 15px;
     }
 }
