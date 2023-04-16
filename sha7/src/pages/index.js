@@ -28,6 +28,7 @@ export default function Home() {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet"/> 
+
       </Head>
       
       <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
