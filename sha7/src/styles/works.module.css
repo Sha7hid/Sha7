@@ -57,7 +57,7 @@
 .more:hover{
     color: white;
 }
-@media (min-height: 650px ){
+@media (min-width: 360px) and (max-width:1250px ){
     .project{
         height: 150px;
         width: 150px;

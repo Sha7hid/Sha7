@@ -81,7 +81,7 @@ cursor: pointer;
     color: white;
     font-family:'Carter One', cursive; 
   }
-  @media (min-height: 650px ){
+  @media (min-width: 360px) and (max-width:1250px ){
     .heading{
         font-size: 15px;
         padding-bottom: 0.2rem;

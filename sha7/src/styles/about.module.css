@@ -114,7 +114,7 @@ animation: animate infinite 3s;
             }
     }
   
-  @media (min-height: 650px ) {
+  @media (min-width: 360px) and (max-width:1250px ) {
     .main{
         min-height: fit-content;
     }
