@@ -86,12 +86,19 @@ body {
   scrollbar-width:none;
   scroll-snap-type : y mandatory;
 overflow-y: auto;
+<<<<<<< HEAD
 
 }
 body::-webkit-scrollbar{
   display : none;
 }
+=======
+>>>>>>> 4c50e1015eacff4fd691fa2a6e98469dcd7d1170
 
+}
+body::-webkit-scrollbar{
+  display : none;
+}
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(

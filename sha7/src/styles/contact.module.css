@@ -81,53 +81,44 @@ cursor: pointer;
     color: white;
     font-family:'Carter One', cursive; 
   }
+<<<<<<< HEAD
   @media (min-width: 360px) and (max-width:1250px ){
+=======
+  @media (min-width: 360px) and (max-width:980px ){
+>>>>>>> 4c50e1015eacff4fd691fa2a6e98469dcd7d1170
     .heading{
-        font-size: 15px;
-        padding-bottom: 0.2rem;
+        font-size: 30px;
+        padding-bottom: 1.5rem;
         padding-top: 1.2rem;
+padding-right: 1.2rem;
+padding-left: 1.2rem;
     }
     .label{
-        font-size: 12px;
+        font-size: 20px;
     }
     .button{
-        font-size: 10px;
+        font-size: 15px;
         padding: 0.5rem;
     }
     .form{
         padding: 3rem;
     }
     .item2{
-        gap: 3rem;
+        gap: 2rem;
     }
     .cof{
 display: none;
     }
     .main{
         min-height: fit-content;
+padding-top:4rem
     }
     .copy{
-        font-size: 0.5rem;
+        font-size: 1rem;
         margin-top: 1rem;
     }
     .success{
-        font-size: 10px;
+        font-size: 15px;
         margin-left: 5rem;
     }
-  }
-  @media (min-height:880px){
-    .main{
-        min-height: 62vh;
-    }
-    .cof{
-       display: none;
-            }
-  }
-  @media (min-height:840px){
-    .main{
-        min-height: 55vh;
-    }
-    .cof{
-        display: none;
-            }
   }

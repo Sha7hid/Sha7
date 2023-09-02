@@ -116,29 +116,35 @@ height: 5rem;
   }
 
 }
+<<<<<<< HEAD
 @media (min-width: 360px) and (max-width:1250px ) {
+=======
+@media (min-width: 360px) and (max-width:980px ) {
+>>>>>>> 4c50e1015eacff4fd691fa2a6e98469dcd7d1170
   .main{
     min-height: fit-content;
+    padding-left:3rem;
+    padding-right:3rem
   }
   .first>p{
-    font-size: 25px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    font-size: 30px;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
   }
   .button{
-    font-size: 15px;
+    font-size: 20px;
     padding-left: 5px;
     padding-bottom: 5px;
     padding-right: 5px;
     padding-top: 5px;
   }
   .code{
-    height: 230px;
-    width: 200px;
+    height: 270px;
+    width: 240px;
   }
   .down{
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
   }
   .git{
     width: 4.5rem;
@@ -161,6 +167,7 @@ height: 5rem;
     .third{
       flex-direction: row;
       gap: 0rem;
-      padding-bottom: 15px;
+      padding-bottom: 25px;
     }
 }
+
